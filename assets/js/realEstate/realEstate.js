@@ -25,7 +25,7 @@ class App extends Component {
         populateFormsData: '',
         sortby: 'price-dsc',
         view: 'box',
-        search: 'Enter an address, neighborhood, or city'
+        search: ''
     }
       this.change = this.change.bind(this)
       this.filteredData = this.filteredData.bind(this)
